@@ -6,6 +6,8 @@ int main()
 	int substruction;
 	int produitt;
 	int division;
+	int array[] = {1024, 402, 98, 1000};
+	int size;
 
 	addition = add(6, 5);
 	substruction = sub(9, 4);
@@ -19,6 +21,10 @@ int main()
 		printf("Can't divide by 0\n");
 	else
 		printf("Division = %d\n", division);
+	size = sizeof(array) / sizeof(array[0]);
+	printf("Size: %d\n", size);
+	printf("Table output\n");
+	printTable(array, size);
 
 	return 0;
 }
