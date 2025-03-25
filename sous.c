@@ -1,4 +1,4 @@
-#include "main.n"
+#include "main.h"
 
 int sous(int a, int b)
 {

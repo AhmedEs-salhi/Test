@@ -5,5 +5,6 @@
 
 int add(int, int);
 int sous(int, int);
+int produit(int, int);
 
 #endif
